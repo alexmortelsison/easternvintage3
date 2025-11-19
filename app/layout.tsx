@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import localFont from "next/font/local";
+
+const brilliant = localFont({
+  src: "../public/brillant.otf",
+  weight: "400",
+  variable: "--font-brilliant",
+});
+const arual = localFont({
+  src: "../public/Arual.ttf",
+  weight: "400",
+  variable: "--font-arual",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +38,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${arual.variable} ${brilliant.variable} ${geistSans.variable} ${geistMono.variable} antialiased bg-[#ebebeb]`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
