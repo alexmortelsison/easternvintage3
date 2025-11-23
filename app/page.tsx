@@ -3,6 +3,7 @@ import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 import NewArrivals from "./components/NewArrivals";
 import Footer from "./components/Footer";
+import BiggestLabels from "./components/BiggestLabels";
 
 export default function HomePage() {
   const h1ref = useRef(null);
@@ -44,6 +45,7 @@ export default function HomePage() {
         </div>
       </div>
       <NewArrivals />
+      <BiggestLabels />
       <Footer />
     </div>
   );

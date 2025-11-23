@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 
 export default function NewArrivals() {
   return (
-    <div className="relative h-screen w-full">
-      <div className="bg-linear-to-b from-black/80 to-black/10 absolute inset-0 z-10"></div>
+    <div className="relative min-h-screen w-full">
+      <div className="bg-linear-to-b from-black/80 to-black/20 absolute inset-0 z-10"></div>
       <Image
         src={"/newarrivals.png"}
         alt="New Arrivals"

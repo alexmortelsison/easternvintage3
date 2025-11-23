@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="h-screen flex justify-center items-center relative inset-0 w-screen">
+    <div className="minhs] flex justify-center items-center relative inset-0 w-screen">
       <div className="">
         <div className="bg-linear-to-b from-black/70 via-black/90  to-black/70 absolute inset-0"></div>
         <Image
