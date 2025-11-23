@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="minhs] flex justify-center items-center relative inset-0 w-screen">
+    <div className="minhs] flex justify-center items-center relative inset-0 w-screen z-50">
       <div className="">
         <div className="bg-linear-to-b from-black/70 via-black/90  to-black/70 absolute inset-0"></div>
         <Image
@@ -61,7 +61,7 @@ export default function Footer() {
             <AiOutlineFacebook />
           </div>
         </div>
-        <div className="text-white/40 pt-24 pb-2">
+        <div className="text-white/40 pt-64">
           <p>&copy;2025 Eastern Vintage. All rights reserved.</p>
         </div>
       </div>
